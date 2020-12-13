@@ -13,7 +13,7 @@ class CyclicRotation {
 
         if (maxLength == 0 || maxIndex == 0 || // Filter out (1)Array contains less than 2,
                 K == maxLength || K % maxLength == 0 // (2)Rotation results in the same order,
-                || K == 0) // K=0
+                || K == 0) // (3) K=0
             return A;
 
         // get number of necessary rotations
