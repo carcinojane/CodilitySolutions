@@ -1,6 +1,4 @@
-import java.util.*;
 //find question at https://app.codility.com/programmers/lessons/2-arrays/
-
 class CyclicRotation {
     public int[] solution(int[] A, int K) {
         // initialize variables
